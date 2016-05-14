@@ -1,0 +1,11 @@
+﻿{
+  "DataAccessSqliteProvider": {
+    "ConnectionString": "Data Source=C:\\docAppApi\\src\\docAppSqliteProvider\\docApp.sqlite"
+  },
+  "DataAccessMsSqlServerProvider": {
+    "ConnectionString": ""
+  },
+  "DataAccessPostgreSqlProvider": {
+    "ConnectionString": "HOST=10.27.145.124;PORT=5432;DATABASE=checklist;USER ID=postgres;PASSWORD=postgres;TIMEOUT=30"
+  }
+}
