@@ -12,5 +12,8 @@ namespace docAppDomain.Model
 		public DateTime AppointmentDate { get; set; }
 		public string AppointmentTime { get; set; }
 		public string Gender { get; set; }
+		public string ContactNumber { get; set; }
+		public bool EstablishedPatient { get; set; }
+        public string InsuranceOption { get; set; }
 	}
 }

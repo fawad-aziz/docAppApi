@@ -8,9 +8,10 @@ using docAppSqliteProvider;
 namespace docAppSqliteProvider.Migrations
 {
     [DbContext(typeof(docAppContext))]
-    partial class docAppContextModelSnapshot : ModelSnapshot
+    [Migration("20160517013824_newcol")]
+    partial class newcol
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "7.0.0-rc1-16348");
@@ -28,13 +29,9 @@ namespace docAppSqliteProvider.Migrations
 
                     b.Property<string>("Email");
 
-                    b.Property<bool>("EstablishedPatient");
-
                     b.Property<string>("FirstName");
 
                     b.Property<string>("Gender");
-
-                    b.Property<string>("InsuranceOption");
 
                     b.Property<string>("LastName");
 
